@@ -17,7 +17,7 @@ function set_environment()
   PROJECT="Satoshishift"
   PROJECT_FOLDER="$HOME/satoshishift"
   BINARY="satoshishiftd"
-  BINARYCLI="satoshift-cli"
+  BINARYCLI="satoshishift-cli"
   NEXT_AVAIL_IP=$(curl -s4 icanhazip.com)
   DATADIR="$HOME/.satoshishift"
 
