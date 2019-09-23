@@ -265,8 +265,8 @@ function create_conf_file()
 cat <<EOF > $CONF_FILE
 rpcuser=$RPC_USER
 rpcpassword=$PASSWORD
-port=12311
-rpcport=12310
+port=20000
+rpcport=20001
 externalip=$NEXT_AVAIL_IP
 server=1
 listen=1
