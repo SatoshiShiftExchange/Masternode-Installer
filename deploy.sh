@@ -35,7 +35,7 @@ function set_environment()
 
 function checks()
 {
-  # Checks if running at least Ubuntu 16.04, as root and no other Ganjacoin Masternode exists
+  # Checks if running at least Ubuntu 16.04, as root and no other Satoshishift Masternode exists
   
   if [[ ($(lsb_release -d) != *16.04*) ]] && [[ ($(lsb_release -d) != *17.04*) ]]; then
       echo -e "${RED} You are not running Ubuntu 16.04 or 17.04. Installation is cancelled.${NC}"
@@ -61,7 +61,7 @@ function checks()
       echo -e "${BLUE} Deleting existing files...${NC}"
       rm -R /root/.satoshishift > /dev/null 2>&1
       rm -R /root/coins/satoshishift > /dev/null 2>&1
-      rm -R /root/ganja > /dev/null 2>&1
+      rm -R /root/satoshishift > /dev/null 2>&1
       sleep 2
     fi
   fi
