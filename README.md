@@ -17,7 +17,7 @@ https://www.satoshishift.com/ <br />
 1.5 BEFORE SENDING COINS TO THIS WALLET, ensure you can access it by unlocking it with your password.  </br>
 ![Image unlock](https://github.com/SatoshiShiftExchange/Masternode-Installer/blob/master/images/unlock.png) </br>
 
-1.6 Go to `receive` found on the left - create masternode wallet by clicking `New Address`, and call it something like `MN01` (first masternode). If this is not your first SHFT masternode, name it appropriately (ex.: `MN03` if it's your third) <br />
+1.6 Go to `receive` found on top - create masternode wallet by typing in Label and call it something like `MN01` (first masternode). If this is not your first SHFT masternode, name it appropriately (ex.: `MN03` if it's your third), then click request payment to see your new address <br />
 
 1.7 Send EXACTLY 50,000 coins to the wallet address you've just created by right-clicking on that new address and clicking on `Copy Address` then going to the send tab and pasting that address in the `Pay To` field. Make sure that it's exactly 50000 - no more, no less.<br />
 
